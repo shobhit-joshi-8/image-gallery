@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!------------ Gallery Wrapper -------------->
+    <div class="gallery">
+
+            <!--------- Gallery Header Section -------->
+        <div class="gallery-header">
+            <div>Image Gallery</div>
+        </div>
+
+            <!------------ Loading Section -------------->
+        <div id="loadingElement" class="loading">
+            <p>Loading....</p>
+        </div>
+
+            <!------------ Gallery Container -------------->
+        <div id="gallery-container" class="gallery-container">
+
+            <div id="gallery-item" class="gallery-item">
+                <img id="gallery-image" src=""  alt="my image">
+            </div>
+
+        </div>
+        
+            <!------------ Gallery Popup -------------->
+        <div class="popup-image">
+            <span>&times;</span>
+            <div class="container" id="container">
+                <div class="flex-container" id="flex-container">
+                </div>
+                <div class="btn left-btn" id="left-btn">L</div>
+                <div class="btn right-btn" id="right-btn">R</div>
+                <div class="carousel-nav" id="carousel-nav"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript File -->
+    <script src="script.js"></script>
+</body>
+</html>
